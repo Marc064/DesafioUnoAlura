@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/style.css">
+    <title>Encriptadro</title>
+</head>
+<body>
+    
+    <div class="fondo">
+        
+        
+        <div class="texto">
+            <img src="Images/Vector.png" class="logo">
+            
+            <textarea name="text" class="ingreso" id="ingreso" cols="30" rows="10" onclick="borrar()">Ingrese el texto</textarea>
+            <Button class="btnEncriptar" type="button" onclick="encriptar()">Encriptar</Button>
+            <button class="btnDesencriptar" type="button" onclick="desencriptar()">Desencriptar</button>
+        </div>
+        <div class="resultado">
+            <textarea readonly="readonly" name="result" id="res" class="res" cols="30" rows="10">Resultado</textarea>
+            <button class="btnCopiar" type="button" onclick="copiar()">Copiar</button>
+        </div>
+    </div>
+
+    <script src="Scripts/script.js"></script>
+</body>
+</html>
